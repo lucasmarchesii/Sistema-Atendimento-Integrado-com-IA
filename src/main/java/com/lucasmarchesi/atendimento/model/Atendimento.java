@@ -34,6 +34,18 @@ public class Atendimento {
     @Column(nullable = false)
     private Instant criadoEm;
 
+    @Enumerated(EnumType.STRING)
+    private Categoria categoria;
+
+    @Enumerated(EnumType.STRING)
+    private Prioridade prioridade;
+
+    @Column(length = 255)
+    private String assunto;
+
+    @Column(length = 2000)
+    private String respostaSugerida;
+
     protected Atendimento() {
     }
 
@@ -49,4 +61,20 @@ public class Atendimento {
     public String getMensagem() { return mensagem; }
     public StatusAtendimento getStatus() { return status; }
     public Instant getCriadoEm() { return criadoEm; }
+    public Categoria getCategoria() { return categoria; }
+    public Prioridade getPrioridade() { return prioridade; }
+    public String getAssunto() { return assunto; }
+    public String getRespostaSugerida() { return respostaSugerida; }
+
+    public void aplicarClassificacao(Categoria categoria, Prioridade prioridade, String assunto, String respostaSugerida) {
+        this.categoria = categoria;
+        this.prioridade = prioridade;
+        this.assunto = assunto;
+        this.respostaSugerida = respostaSugerida;
+        this.status = StatusAtendimento.CLASSIFICADO;
+    }
+
+    public void marcarPendenteClassificacao() {
+        this.status = StatusAtendimento.PENDENTE_CLASSIFICACAO;
+    }
 }

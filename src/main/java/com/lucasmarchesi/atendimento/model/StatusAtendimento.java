@@ -1,5 +1,7 @@
 package com.lucasmarchesi.atendimento.model;
 
 public enum StatusAtendimento {
-    RECEBIDO
+    RECEBIDO,
+    CLASSIFICADO,
+    PENDENTE_CLASSIFICACAO
 }
