@@ -1,6 +1,7 @@
 package com.lucasmarchesi.atendimento.controller;
 
 import com.lucasmarchesi.atendimento.dto.AtendimentoRequest;
+import com.lucasmarchesi.atendimento.dto.ResumoReprocessamento;
 import com.lucasmarchesi.atendimento.model.Atendimento;
 import com.lucasmarchesi.atendimento.service.AtendimentoService;
 import jakarta.validation.Valid;
@@ -32,7 +33,11 @@ public class AtendimentoController {
 
     @GetMapping
     public List<Atendimento> listar() {
-        System.out.println();
         return service.listar();
+    }
+
+    @PostMapping("/reprocessar")
+    public ResumoReprocessamento reprocessar() {
+        return service.reprocessarPendentes();
     }
 }
