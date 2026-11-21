@@ -1,0 +1,72 @@
+# Gabarito de avaliação: CATEGORIA|PRIORIDADE|mensagem
+# Categorias: FINANCEIRO, ACESSO, CANCELAMENTO, TECNICO, OUTROS
+# Prioridades: ALTA, MEDIA, BAIXA
+
+FINANCEIRO|ALTA|Fui cobrado duas vezes no cartão este mês e preciso do estorno urgente
+FINANCEIRO|ALTA|Apareceu uma compra no meu cartão que eu não fiz, acho que é fraude
+FINANCEIRO|MEDIA|Minha fatura veio com um valor diferente do combinado
+FINANCEIRO|MEDIA|Ainda não recebi o reembolso que vocês prometeram na semana passada
+FINANCEIRO|BAIXA|Gostaria de saber como emitir a segunda via do boleto
+FINANCEIRO|MEDIA|O pagamento foi aprovado no banco mas o sistema diz que está pendente
+FINANCEIRO|BAIXA|Dúvida: vocês aceitam pagamento via Pix?
+FINANCEIRO|ALTA|Debitaram o valor da mensalidade da minha conta três vezes hoje
+FINANCEIRO|MEDIA|Preciso da nota fiscal do último pagamento para a minha empresa
+FINANCEIRO|MEDIA|O desconto do cupom não foi aplicado na minha fatura
+FINANCEIRO|BAIXA|Posso mudar a data de vencimento da fatura para o dia 15?
+FINANCEIRO|ALTA|Meu cartão foi cobrado mesmo depois de eu cancelar o pedido
+
+ACESSO|MEDIA|Não consigo entrar na minha conta, diz que a senha está errada
+ACESSO|MEDIA|Esqueci minha senha e o e-mail de recuperação não chega
+ACESSO|ALTA|Minha conta foi bloqueada e preciso acessar hoje para fechar um relatório
+ACESSO|MEDIA|Não recebo o código de verificação por SMS para fazer login
+ACESSO|BAIXA|Como faço para trocar o e-mail cadastrado na minha conta?
+ACESSO|ALTA|Alguém entrou na minha conta sem autorização e mudou minha senha
+ACESSO|MEDIA|O link de acesso do curso não abre para mim
+ACESSO|BAIXA|Quero adicionar um segundo usuário na minha conta, como faço?
+ACESSO|MEDIA|Meu login funciona no celular mas não no computador
+ACESSO|MEDIA|Perdi o acesso ao e-mail cadastrado e não consigo recuperar a conta
+
+CANCELAMENTO|MEDIA|Quero cancelar minha assinatura
+CANCELAMENTO|MEDIA|Gostaria de encerrar minha conta definitivamente
+CANCELAMENTO|BAIXA|Como funciona o cancelamento? Tem multa?
+CANCELAMENTO|MEDIA|Vou cancelar o plano porque mudei de cidade
+CANCELAMENTO|ALTA|Já pedi o cancelamento duas vezes e continuam me cobrando
+CANCELAMENTO|MEDIA|Não quero mais o serviço, como faço para sair?
+CANCELAMENTO|BAIXA|Posso pausar a assinatura por dois meses em vez de cancelar?
+CANCELAMENTO|MEDIA|Peço o cancelamento do contrato empresarial a partir do próximo mês
+CANCELAMENTO|MEDIA|Quero desativar a renovação automática da minha assinatura
+
+TECNICO|MEDIA|O aplicativo trava toda vez que abro a tela de relatórios
+TECNICO|ALTA|O sistema está fora do ar desde cedo e minha equipe não consegue trabalhar
+TECNICO|MEDIA|Aparece erro 500 quando tento enviar um arquivo
+TECNICO|BAIXA|A página demora um pouco para carregar às vezes
+TECNICO|MEDIA|Os gráficos do painel não estão atualizando
+TECNICO|MEDIA|O botão de exportar não funciona no Safari
+TECNICO|ALTA|Perdi todos os dados que cadastrei hoje, sumiram do sistema
+TECNICO|MEDIA|Encontrei um bug na tela de configurações
+TECNICO|MEDIA|As notificações push pararam de chegar no meu celular
+
+OUTROS|BAIXA|Bom dia, tudo bem?
+OUTROS|BAIXA|Sugestão: seria ótimo ter um modo escuro no aplicativo
+OUTROS|BAIXA|Vocês têm atendimento por telefone? Qual o horário?
+OUTROS|BAIXA|Gostaria de elogiar o atendimento da Carla, foi excelente
+OUTROS|MEDIA|Quero falar com um gerente comercial sobre um plano para minha empresa
+OUTROS|BAIXA|Onde encontro o manual de uso do produto?
+OUTROS|MEDIA|Gostaria de saber se vocês têm parceria com universidades
+OUTROS|BAIXA|Obrigado pela ajuda de ontem, deu tudo certo!
+OUTROS|MEDIA|Quero reclamar do atendimento que recebi na última ligação
+OUTROS|BAIXA|Vocês emitem certificado de conclusão ao final do curso?
+
+# Ex-teste cego (aposentado em 21/11)
+FINANCEIRO|ALTA|Me cobraram duas vezes no cartão esse mês, preciso do estorno pra ontem!
+FINANCEIRO|ALTA|Broto uma compra no meu cartão que eu não fiz não, tô achando que clonaram
+FINANCEIRO|MEDIA|Minha fatura veio com um valor nada a ver com o que a gente combinou
+FINANCEIRO|MEDIA|E aí, cadê o reembolso que vocês prometeram semana passada? Até agora nada
+FINANCEIRO|BAIXA|Opa, como que eu faço pra tirar a segunda via do boleto?
+FINANCEIRO|MEDIA|Já descontou no meu banco certinho, mas no sistema de vocês ainda tá constando pendente
+FINANCEIRO|BAIXA|Só pra tirar uma dúvida: vocês aceitam Pix?
+FINANCEIRO|ALTA|Rapaz, debitaram a mensalidade da minha conta três vezes hoje, vê isso aí!
+FINANCEIRO|MEDIA|Preciso da nota fiscal desse último pagamento pra mandar lá pra firma
+FINANCEIRO|MEDIA|O desconto do cupom não entrou na minha fatura, veio o valor cheio
+FINANCEIRO|BAIXA|Tem como jogar o vencimento da minha fatura pro dia 15?
+FINANCEIRO|ALTA|Cancelei o pedido e mesmo assim passou a cobrança no meu cartão, como assim?

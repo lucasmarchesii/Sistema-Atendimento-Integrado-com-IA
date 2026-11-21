@@ -1,0 +1,20 @@
+FINANCEIRO|ALTA|Me cobraram duas vezes no cartão esse mês, preciso do estorno pra ontem!
+ACESSO|MEDIA|Tô tentando entrar na minha conta e tá dando senha errada direto
+CANCELAMENTO|MEDIA|Quero cancelar minha assinatura, não tô usando mais não
+TECNICO|MEDIA|O app trava toda vez que eu abro aquela tela de relatórios
+OUTROS|BAIXA|Opa, bom dia! Tudo certo por aí?
+FINANCEIRO|ALTA|Brotou uma compra no meu cartão que eu não fiz não, tô achando que clonaram
+ACESSO|MEDIA|Esqueci minha senha e o e-mail de recuperação não chega de jeito nenhum
+CANCELAMENTO|MEDIA|Quero encerrar minha conta de vez, como faz?
+TECNICO|ALTA|O sistema caiu desde cedo e o pessoal aqui tá tudo parado sem conseguir trabalhar
+OUTROS|BAIXA|Fica a dica: seria top demais se tivesse modo escuro no aplicativo
+FINANCEIRO|MEDIA|Minha fatura veio com um valor nada a ver com o que a gente combinou
+ACESSO|ALTA|Bloquearam minha conta e eu preciso entrar hoje de qualquer jeito pra fechar um relatório
+CANCELAMENTO|BAIXA|Como funciona pra cancelar? Tem que pagar alguma multa?
+TECNICO|MEDIA|Tá dando um tal de erro 500 toda vez que tento subir um arquivo
+OUTROS|BAIXA|Vocês atendem por telefone? Qual horário que funciona?
+FINANCEIRO|MEDIA|E aí, cadê o reembolso que vocês prometeram semana passada? Até agora nada
+ACESSO|MEDIA|O código por SMS pra fazer login não tá chegando no meu celular
+CANCELAMENTO|ALTA|Já pedi pra cancelar duas vezes e vocês continuam cobrando, qual foi?
+TECNICO|ALTA|Sumiu tudo que eu cadastrei hoje no sistema, perdi os dados todos!
+OUTROS|BAIXA|Queria dar os parabéns pro atendimento da Carla, ela mandou bem demais!

@@ -23,17 +23,24 @@ public class ClassificadorSimulado implements Classificador {
         if (contem(texto, "cancel", "encerrar")) return Categoria.CANCELAMENTO;
         if (contem(texto, "cobr", "fatura", "pagamento", "estorno", "reembolso", "cartao", "boleto"))
             return Categoria.FINANCEIRO;
-        if (contem(texto, "senha", "login", "entrar", "acessar", "acesso", "bloquead"))
+        if (contem(texto, "senha", "login", "entrar", "acessar", "acesso", "bloqueado"))
             return Categoria.ACESSO;
-        if (contem(texto, "erro", "bug", "travou", "nao funciona", "lento", "falha"))
+        if (contem(texto, "erro", "bug", "trava", "travou", "crash", "congela",
+                "caiu", "fora do ar", "demora", "lento", "lenta", "nao carrega",
+                "sumiu", "sumiram", "parou", "pararam", "instavel",
+                "nao funciona", "falha"))
             return Categoria.TECNICO;
         return Categoria.OUTROS;
     }
 
     private Prioridade definirPrioridade(String texto) {
-        if (contem(texto, "urgente", "imediat", "fraude", "indevid", "duas vezes", "bloquead"))
+        if (contem(texto, "urgente", "urgencia", "imediato", "fraude", "golpe", "clonado", "clonaram",
+                "invadido", "sem autorizacao", "nao autorizei", "indevido", "duas vezes",
+                "tres vezes", "bloquead", "fora do ar"))
             return Prioridade.ALTA;
-        if (contem(texto, "duvida", "informacao", "sugestao"))
+        if (contem(texto, "duvida", "informacao", "sugestao", "gostaria de saber", "queria saber",
+                "onde encontro", "voces tem", "voces emitem", "voces aceitam", "tem como", "posso",
+                "obrigado", "elogio", "parabens"))
             return Prioridade.BAIXA;
         return Prioridade.MEDIA;
     }
