@@ -2,9 +2,9 @@ services:
   db:
     image: postgres:16
     environment:
-      POSTGRES_DB: atendimento
-      POSTGRES_USER: atendimento
-      POSTGRES_PASSWORD: atendimento
+      POSTGRES_DB: ${POSTGRES_DB:?defina POSTGRES_DB no arquivo .env}
+      POSTGRES_USER: ${POSTGRES_USER:?defina POSTGRES_USER no arquivo .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?defina POSTGRES_PASSWORD no arquivo .env}
     ports:
       - "5432:5432"
     volumes:
