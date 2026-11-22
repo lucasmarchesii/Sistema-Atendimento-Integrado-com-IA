@@ -84,6 +84,15 @@ class AtendimentoApiIntegrationTest {
                 assertThat(((Number) item.get("id")).longValue()).isEqualTo(id));
     }
 
+    @Test
+    void publicaADocumentacaoOpenApi() {
+        String json = http.get().uri("/v3/api-docs").retrieve().body(String.class);
+
+        assertThat(json)
+                .contains("\"/atendimentos\"")
+                .contains("/atendimentos/reprocessar");
+    }
+
     private ResponseEntity<Map<String, Object>> criar(String mensagem) {
         ResponseEntity<Map<String, Object>> resposta = http.post()
                 .uri("/atendimentos")
